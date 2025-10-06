@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+
+# local databases and journals
+*.db
+*.db-journal
+/data/*.db
+/data/*.db-journal
+# logs and checkpoints
+data/fetch_football_data.log
+data/fd_checkpoint.json
